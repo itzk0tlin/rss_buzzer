@@ -1,4 +1,4 @@
-package core
+package pkg
 
 import (
 	"bytes"
@@ -7,7 +7,6 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 	"github.com/dgraph-io/badger/v4/options"
-	"github.com/k0tlin/rss-buzzer/core/pkg"
 )
 
 var RSSRepo = RSSRepository{Path: "data"}
@@ -89,10 +88,10 @@ func (repo RSSRepository) GetKey(value []byte) ([]byte, error) {
 	return resultKey, nil
 }
 
-func (repo RSSRepository) GetAllPairs() []pkg.DBPair {
+func (repo RSSRepository) GetAllPairs() []DBPair {
 	db := repo.OpenDatabase()
 	defer db.Close()
-	var resultPairs []pkg.DBPair
+	var resultPairs []DBPair
 	db.View(func(txn *badger.Txn) error {
 		opts := badger.DefaultIteratorOptions
 		opts.PrefetchValues = true
@@ -104,7 +103,7 @@ func (repo RSSRepository) GetAllPairs() []pkg.DBPair {
 			item := it.Item()
 			key := item.Key()
 			item.Value(func(val []byte) error {
-				pair := pkg.DBPair{Key: key, Value: val}
+				pair := DBPair{Key: key, Value: val}
 				resultPairs = append(resultPairs, pair)
 				return nil
 			})
