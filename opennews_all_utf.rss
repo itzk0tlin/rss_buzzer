@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>OpenNews.opennet.ru: Общая лента новостей</title>
+    <description>OpenNews - Новости мира открытых систем (Общая лента новостей)</description>
+    <link>https://www.opennet.ru/opennews/</link>
+<item>
+    <title>Третий предварительный выпуск мессенджера Pidgin 3.0 </title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63506</link>
+    <pubDate>Tue, 01 Jul 2025 18:06:09 +0300</pubDate>
+    <description>Представлен третий экспериментальный выпуск клиента для мгновенного обмена сообщениями Pidgin 3.0 (2.92). Выпуск отмечен как имеющий уровень качества предварительной альфа-версии, не рассчитанной на повседневное применение. Сборки подготовлены в формате  Flatpak (пока доступен только архив с кодом).</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63506</guid>
+</item>
+<item>
+    <title>Уязвимости в утилите sudo, позволяющие получить права root в системе</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63505</link>
+    <pubDate>Tue, 01 Jul 2025 11:23:17 +0300</pubDate>
+    <description>В пакете sudo, применяемом для организации выполнения команд от имени других пользователей, выявлена уязвимость (CVE-2025-32463), позволяющая любому непривилегированному пользователю выполнить код с правами root, даже если пользователь не упомянут в конфигурации sudoers. Проблеме подвержены дистрибутивы, использующие файл конфигурации /etc/nsswitch.conf, например, возможность эксплуатации уязвимости продемонстрирована в Ubuntu 24.04 и Fedora 41.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63505</guid>
+</item>
+<item>
+    <title>Обновление Steam Client для Linux с включением по умолчанию Proton для запуска Windows-игр</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63504</link>
+    <pubDate>Tue, 01 Jul 2025 09:40:32 +0300</pubDate>
+    <description>Компания Valve опубликовала июньское обновление клиента сервиса доставки игр Steam  для Linux. Выпуск примечателен включением по умолчанию пакета Proton для запуска игр, не имеющих родной сборки для Linux. Ранее для данной возможности требовалось отдельно активировать опцию &quot;Enable SteamPlay for other titles&quot; в настройках. Также в версии для Linux ускорена установка обновлений, которая в некоторых ситуациях занимала минуты, а теперь выполняется за несколько секунд.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63504</guid>
+</item>
+<item>
+    <title>Выпуск Phosh 0.48.0, GNOME-окружения для смартфонов </title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63503</link>
+    <pubDate>Tue, 01 Jul 2025 09:05:25 +0300</pubDate>
+    <description>Опубликован релиз Phosh 0.48, экранной оболочки для мобильных устройств, основанной на технологиях GNOME и библиотеке GTK. Окружение изначально развивалось компанией Purism в качестве аналога GNOME Shell для смартфона Librem 5, но затем вошло в число неофициальных проектов GNOME и  используется в postmarketOS, Mobian, Droidian, некоторых прошивках для устройств Pine64 и редакции Fedora для смартфонов. Phosh использует композитный сервер Phoc, работающий поверх Wayland, а также собственную экранную клавиатуру squeekboard.  Наработки проекта распространяются под лицензией GPLv3+.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63503</guid>
+</item>
+<item>
+    <title>Выпуск дистрибутива Альт Образование 11.0</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63501</link>
+    <pubDate>Tue, 01 Jul 2025 07:52:33 +0300</pubDate>
+    <description>Компания &quot;Базальт СПО&quot; выпустила новую версию дистрибутива Linux для образовательных организаций &amp;#8212; &amp;#171;Альт Образование&amp;#187; 11.0, построенного на основе 11 платформы ALT (p11). Дистрибутив предназначен для повседневного использования дошкольными организациями, школами, вузами, средними специальными учебными заведениями. Продукт распространяется в рамках  Лицензионного договора, который предоставляет возможность свободного использования физическими лицами. Коммерческие и государственные организации могут загружать и тестировать дистрибутив, но для постоянной работы в корпоративной инфраструктуре юридическим лицам необходимо приобретать лицензии или заключать лицензионные договоры в письменной форме. Сборки подготовлены для платформ x86_64 и AArch64.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63501</guid>
+</item>
+<item>
+    <title>Ubuntu будет поставлять intel-compute-runtime без защиты от Spectre, снижающей производительность на 20%</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63498</link>
+    <pubDate>Mon, 30 Jun 2025 10:19:42 +0300</pubDate>
+    <description>В Ubuntu решено перейти по умолчанию на поставку пакета intel-compute-runtime, собранного с флагом  NEO_DISABLE_MITIGATIONS, отключающим защиту от атак класса Spectre. По оценке разработчиков Ubuntu наличие подобной защиты приводит к снижению производительности пакета примерно на 20%.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63498</guid>
+</item>
+<item>
+    <title>Доступен Cryptsetup 2.8 с поддержкой inline-режима хранения метаданных</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63497</link>
+    <pubDate>Mon, 30 Jun 2025 07:52:32 +0300</pubDate>
+    <description>Опубликован набор утилит Cryptsetup 2.8, предназначенных для настройки шифрования дисковых разделов в Linux при помощи модуля dm-crypt. Поддерживается работа с разделами dm-crypt, LUKS, LUKS2,  BITLK, loop-AES и TrueCrypt/VeraCrypt. В состав также входят утилиты veritysetup и integritysetup  для настройки контроля целостности данных на основе модулей dm-verity и dm-integrity.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63497</guid>
+</item>
+<item>
+    <title>Выпуск Hangover 10.11, пакета для запуска Windows-приложений на системах ARM64</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63496</link>
+    <pubDate>Sun, 29 Jun 2025 22:18:56 +0300</pubDate>
+    <description>Опубликован релиз инструментария  Hangover 10.11, позволяющего запускать 32-разрядные Windows-приложения, собранные для архитектур x86 (i386) и ARM32, в окружениях  на базе архитектуры ARM64 (Aarch64). В разработке  находится реализация варианта Hangover для архитектуры RISC-V. Наработки проекта распространяются под лицензией  LGPL 2.1.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63496</guid>
+</item>
+<item>
+    <title>Автор Node.js добивается отмены торговой марки JavaScript</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63494</link>
+    <pubDate>Sun, 29 Jun 2025 13:30:06 +0300</pubDate>
+    <description>Райан Даль (Ryan Dahl), создатель JavaScript-платформ Node.js и Deno, добивается  отзыва у компании Oracle торговой марки &quot;JavaScript&quot;. Первым шагом стала публикация в прошлом году открытого письма к компании Oracle c призывом отказаться от торговой марки JavaScript, так как данное слово стало общеупотребительным термином, не связанным с конкретными продуктами Oracle и широко используемым  людьми и компаниями.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63494</guid>
+</item>
+<item>
+    <title>Дистрибутив Artix Linux начал поставку сборок с XLibre, форком X.Org Server</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63492</link>
+    <pubDate>Sun, 29 Jun 2025 09:43:34 +0300</pubDate>
+    <description>Разработчики дистрибутива Artix Linux представили экспериментальные сборки, переведённые на использование XLibre, форка X.Org Server. Artix Linux основан на пакетной базе Arch Linux и примечателен использованием вместо systemd системных менеджеров openrc, runit, dinit и s6, на выбор пользователя. Для тестирования сформированы XLibre-сборки с рабочими столами Xfce, Cinnamon и MATE, размером 2 ГБ, а также полная сборка, размером 4.6 ГБ. В скором времени XLibre намерены задействовать и в основных сборках дистрибутива. Пользователи существующих установок Artix Linux могут перейти на XLibre, установив пакет xlibre-xserver  и необходимые драйверы xlibre-xf86-* из репозитория &quot;galaxy-gremlins&quot;.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63492</guid>
+</item>
+<item>
+    <title>Опубликован Wayback, композитный сервер Wayland для запуска рабочих столов на базе X11</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63491</link>
+    <pubDate>Sun, 29 Jun 2025 08:58:01 +0300</pubDate>
+    <description>Ариадна Конилл (Ariadne Conill), создатель музыкального проигрывателя Audacious, инициатор разработки протокола IRCv3 и лидер команды по обеспечению безопасности Alpine Linux, опубликовала начальную реализацию прослойки Wayback, позволяющей запускать десктоп-окружения, завязанные на протокол X11, используя компоненты на базе Wayland. Код проекта написан на языке Си и распространяется под лицензией MIT (в файле с кодом указано общественное достояние - CC0).</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63491</guid>
+</item>
+<item>
+    <title>Представлен Tyr, Linux-драйвер для GPU ARM Mali, написанный на Rust</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63490</link>
+    <pubDate>Sat, 28 Jun 2025 14:37:16 +0300</pubDate>
+    <description>Дэниел Алмейда (Daniel Almeida), занимающийся развитием видеокодеков в компании Collabora, опубликовал в списке рассылки разработчиков Linux-ядра начальную реализацию драйвера Tyr для GPU  ARM Mali, в которых применяется технология CSF (Сommand Stream Frontend), таких как Mali G310, G510 и G710. Код драйвера написан на языке Rust  и насчитывает чуть больше 600 строк кода. Работа над драйвером Tyr ведётся совместно сотрудниками компаний Collabora, Arm и Google.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63490</guid>
+</item>
+<item>
+    <title>Линус Товальдс намерен исключить Bcachefs из ядра Linux 6.17</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63489</link>
+    <pubDate>Sat, 28 Jun 2025 09:56:31 +0300</pubDate>
+    <description>Очередная дискуссия между Линусом Торвальсом и Кентом Оверстритом (Kent Overstreet), автором Bcachefs, завершилась тем, что Линус выразил готовность исключить код Bcachefs из ядра Linux 6.17. При этом Линус принял в состав ядра 6.16 изменения в  Bcachefs, ставшие предметом очередного недовольства действиями Кента. Линус написал.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63489</guid>
+</item>
+<item>
+    <title>В KDE добавлена поддержка инерционной прокрутки и продолжена реализация восстановления сеанса</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63488</link>
+    <pubDate>Sat, 28 Jun 2025 08:32:48 +0300</pubDate>
+    <description>Нейт Грэм (Nate Graham), разработчик, занимающийся контролем качества в проекте KDE, опубликовал очередной отчёт о разработке KDE. Наиболее заметным изменением стало добавление в ветку KDE Frameworks 6.16 поддержки инерционной прокрутки при помощи тачпада (при прокрутке колесом мыши инерционность не применяется), которая может использоваться во всех прокручиваемых областях приложений, использующих QtQuick.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63488</guid>
+</item>
+<item>
+    <title>Выпуск Wine 10.11 и Wine staging 10.11</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63487</link>
+    <pubDate>Sat, 28 Jun 2025 08:08:22 +0300</pubDate>
+    <description>Опубликован экспериментальный выпуск открытой реализации Win32 API - Wine 10.11. С момента выпуска  10.10 было закрыто 25 отчётов об ошибках и внесено 292 изменения.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63487</guid>
+</item>
+<item>
+    <title>Выпуск Rust 1.88. Операционная система Munal и утилита rsched на Rust</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63485</link>
+    <pubDate>Fri, 27 Jun 2025 19:12:18 +0300</pubDate>
+    <description>Опубликован релиз языка программирования общего назначения Rust 1.88, основанного проектом Mozilla, но ныне развиваемого под покровительством независимой некоммерческой организации Rust Foundation. Язык сфокусирован на безопасной работе с памятью и предоставляет средства для достижения высокого параллелизма выполнения заданий, при этом обходясь без использования сборщика мусора и runtime (runtime сводится к базовой инициализации и сопровождению стандартной библиотеки).</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63485</guid>
+</item>
+<item>
+    <title>Библиотека построения графических интерфейсов Cosmoe, использующая Wayland и API в стиле BeOS</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63483</link>
+    <pubDate>Fri, 27 Jun 2025 12:56:44 +0300</pubDate>
+    <description>Представлена GUI-библиотека Cosmoe, поддерживающая работу в Linux в окружениях  на базе Wayland. Cosmoe позволяет создавать программы с графическим интерфейсом на языке C++, применяя для формирования интерфейса API в стиле  библиотеки классов операционной системы BeOS. Библиотека даёт возможность напрямую запускать в Linux программы, использующие API BeOS. Код проекта распространяется под лицензией MIT.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63483</guid>
+</item>
+<item>
+    <title>В 2024 году выручка компании Canonical составила 291 млн. долларов</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63481</link>
+    <pubDate>Fri, 27 Jun 2025 10:31:31 +0300</pubDate>
+    <description>Компания Canonical опубликовала финансовый отчёт за 2024 год, в соответствии с которым выручка за прошлый год составила 291 млн долларов. Для сравнения в 2023 году был получен $251 млн, в 2022 году - $205 млн, а в 2013  - $84 млн.  Валовая прибыль компании за 2024 год составила $258.3 млн (в 2023 году - $218.5 млн), а операционная прибыль - $15.5 млн (в 2023 году - $11.2 млн).</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63481</guid>
+</item>
+<item>
+    <title>Apple обеспечит поддержку разработки Android-приложений на языке Swift</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63482</link>
+    <pubDate>Fri, 27 Jun 2025 09:05:27 +0300</pubDate>
+    <description>Компания Apple сформировала рабочую группу для сопровождения поддержки платформы Android в инструментарии, связанном с языком программирования Swift, а также продвижении Swift в качестве языка для разработки мобильных приложений для Android. Android будет добавлен в число платформ, официально поддерживаемых в Swift.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63482</guid>
+</item>
+<item>
+    <title>Доступна платформа Jakarta EE 11, продолжающая развитие Java EE</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63479</link>
+    <pubDate>Fri, 27 Jun 2025 08:14:58 +0300</pubDate>
+    <description>Сообщество Eclipse представило платформу Jakarta EE 11. Jakarta EE пришёл на смену Java EE (Java Platform, Enterprise Edition) после передачи  процессов разработки спецификаций, TCK и эталонной реализации в руки некоммерческой организации Eclipse Foundation. Платформа продолжила развитие под новым именем так как компания Oracle передала только технологии и управление проектом, но не передала сообществу Eclipse права на использование торговой марки Java.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63479</guid>
+</item>
+<item>
+    <title>Выпуск дистрибутива Tails 6.17</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63480</link>
+    <pubDate>Fri, 27 Jun 2025 08:03:58 +0300</pubDate>
+    <description>Представлен релиз специализированного дистрибутива Tails 6.17 (The Amnesic Incognito Live System), развиваемого в составе проекта Tor. Дистрибутив основан на пакетной базе Debian 12, поставляется с рабочим столом GNOME 43 и предназначен для анонимного выхода в сеть при помощи инструментария Tor. Все соединения, кроме трафика через сеть Tor, по умолчанию блокируются пакетным фильтром. Для хранения пользовательских данных в режиме сохранения пользовательских данных между запусками применяется шифрование.  Для загрузки подготовлен iso-образ, способный работать в Live-режиме, размером 1 ГБ.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63480</guid>
+</item>
+<item>
+    <title>Второй бета-выпуск VirtualBox 7.2</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63478</link>
+    <pubDate>Fri, 27 Jun 2025 07:27:50 +0300</pubDate>
+    <description>Компания Oracle опубликовала второй бета-выпуск системы виртуализации VirtualBox 7.2.  Релиз ожидается летом. Сборки со второй бета-версией VirtualBox 7.2 подготовлены для RHEL 8/9/10, Fedora 36/40, openSUSE 15.6, Ubuntu 20.04/22.04/24.04/24.10, Debian 11/12, macOS и Windows. Код проекта написан на языке C++ и распространяется под лицензией GPLv2+.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63478</guid>
+</item>
+<item>
+    <title>Доступен дистрибутив Deepin 25, развивающий собственное графическое окружение</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63477</link>
+    <pubDate>Thu, 26 Jun 2025 23:04:32 +0300</pubDate>
+    <description>Опубликован релиз дистрибутива Deepin 25, развивающего собственный рабочий стол Deepin Desktop Environment (DDE), а также около 40 пользовательских приложений, среди которых музыкальный проигрыватель Deepin Music, видеоплеер Deepin Movie, инсталлятор и центр установки программ Deepin Store. Проект основан группой разработчиков из Китая, но трансформировался в международный проект и поддерживает русский язык. Репозиторий дистрибутива включает более 8000 пакетов. Все наработки распространяются под лицензией GPLv3. Размер загрузочных iso-образов 6 ГБ (amd64, arm64 и loongarch64).</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63477</guid>
+</item>
+<item>
+    <title>Выпуск дистрибутива Oracle Linux 10</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63476</link>
+    <pubDate>Thu, 26 Jun 2025 20:56:02 +0300</pubDate>
+    <description>Компания Oracle опубликовала дистрибутив Oracle Linux 10, созданный на основе пакетной базы Red Hat Enterprise Linux 10 и полностью бинарно совместимый с ней. Для загрузки без ограничений предложены установочные iso-образы, размером 8.5 ГБ и 1.1 ГБ, подготовленные для архитектур x86_64 и ARM64 (aarch64).  Для Oracle Linux 10 открыт неограниченный и бесплатный доступ к yum-репозиторию с бинарными обновлениями пакетов с устранением ошибок (errata) и проблем безопасности. Для загрузки также подготовлены отдельно поддерживаемые репозитории с наборами пакетов Application Stream и CodeReady Builder.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63476</guid>
+</item>
+<item>
+    <title>Выпуск DHCP-сервера Kea 3.0, развиваемого консорциумом ISC </title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63474</link>
+    <pubDate>Thu, 26 Jun 2025 17:52:25 +0300</pubDate>
+    <description>Консорциум ISC опубликовал релиз DHCP-сервера Kea 3.0,  идущего на смену классическому ISC DHCP. Kea 3.0 отмечен как первый выпуск, для которого будет обеспечен длительный цикл сопровождения (LTS) - обновления будут выпускаться в течение трёх лет. Новые значительные стабильные выпуски планируют формировать раз в полгода, а не раз в год. Исходные тексты проекта распространяются под лицензией Mozilla Public License (MPL) 2.0, вместо ранее применяемой для ISC DHCP лицензии ISC License.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63474</guid>
+</item>
+<item>
+    <title>Выпуск mmc-utils 1.0, утилит для управления картами памяти MMC и SD</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63472</link>
+    <pubDate>Thu, 26 Jun 2025 16:03:46 +0300</pubDate>
+    <description>Опубликован релиз набора утилит mmc-utils 1.0,  предназначенного для низкоуровневой настройки карт памяти MMC, eMMC и SD из пространства пользователя. Выпуск отмечен как первый официальный релиз (проект развивается с 2012 года). Код написан на языке Си и распространяется под лицензией GPLv2.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63472</guid>
+</item>
+<item>
+    <title>Доступен дистрибутив SUSE Linux Enterprise 15 SP7</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63470</link>
+    <pubDate>Thu, 26 Jun 2025 07:44:54 +0300</pubDate>
+    <description>После года разработки компания SUSE представила релиз дистрибутива SUSE Linux Enterprise 15 SP7. На основе платформы SUSE Linux Enterprise сформированы такие продукты, как SUSE Linux Enterprise Server, SUSE Linux Enterprise Desktop, SUSE Linux Enterprise High Performance Computing и SUSE Linux Enterprise High Availability Extension. Дистрибутив можно загрузить и использовать бесплатно, но доступ к получению обновлений и исправлений ограничен  60-дневным пробным периодом. Выпуск доступен в сборках для архитектур  aarch64, ppc64le, s390x и x86_64. Выпуск будет поддерживаться до июня 2031 года, не считая расширенных программ поддержки LTSS и LTSS Core, которые будут действовать до 2034 и 2037 годов.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63470</guid>
+</item>
+<item>
+    <title>Mozilla свернула проект DeepSpeech, развивавший движок распознавания речи</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63469</link>
+    <pubDate>Wed, 25 Jun 2025 23:35:02 +0300</pubDate>
+    <description>Компания Mozilla перевела в архивный режим репозиторий с открытым движком распознавания речи DeepSpeech. Последним изменением в кодовой базе стало исправление файла README, в который была добавлена информация о прекращении разработки проекта.  До этого последний коммит был датирован 2021 годом.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63469</guid>
+</item>
+<item>
+    <title>Выпуск web-браузера Chrome 138</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63468</link>
+    <pubDate>Wed, 25 Jun 2025 23:11:24 +0300</pubDate>
+    <description>Компания Google опубликовала релиз web-браузера Chrome 138. Одновременно доступен  стабильный выпуск свободного проекта Chromium, выступающего основой Chrome. Браузер Chrome отличается от Chromium использованием логотипов Google,  наличием системы отправки уведомлений в случае краха, модулями для воспроизведения защищённого от копирования видеоконтента (DRM), системой автоматической установки обновлений, постоянным включением Sandbox-изоляции, поставкой ключей к  Google API и передачей RLZ-параметров при поиске. Для тех, кому необходимо больше времени на обновление, отдельно поддерживается ветка Extended Stable, сопровождаемая 8 недель. Следующий выпуск Chrome 139 запланирован на 5 августа.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63468</guid>
+</item>
+<item>
+    <title>Применение книг для обучения AI-моделей признано добросовестным использованием</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63467</link>
+    <pubDate>Wed, 25 Jun 2025 16:29:48 +0300</pubDate>
+    <description>Окружной суд Калифорнии вынес решение в разбирательстве против компании Anthropic, которая обвинялась в нарушении  авторских прав при использовании легально купленных книг и нелегальных коллекций книг с пиратских сайтов для обучения большой языковой модели Claude. Суд постановил, что использование для обучения модели легально купленных книг соответствует принципу добросовестного использования и  получение  разрешения у авторов в этом случае не требуется, так как книги используются для анализа и генерации нового текста, а не для прямого копирования оригиналов.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63467</guid>
+</item>
+<item>
+    <title>Опубликована третья редакция формата PNG </title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63466</link>
+    <pubDate>Wed, 25 Jun 2025 15:55:16 +0300</pubDate>
+    <description>Консорциум W3C опубликовал третью редакцию спецификации  формата изображений PNG, которая получила статус рекомендованного стандарта. Новый вариант полностью обратно совместим со второй редакцией спецификации PNG, выпущенной в 2003 году, и отличается включением таких дополнительных возможностей, как поддержка расширенного динамического диапазона (HDR), анимированных изображений (APNG), интеграции метаданных EXIF и свойств CICP (Coding-Independent Code Points) для определения цветовых пространств.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63466</guid>
+</item>
+<item>
+    <title>Уязвимости в пакетных менеджерах Nix, Lix и Guix</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63464</link>
+    <pubDate>Wed, 25 Jun 2025 12:45:10 +0300</pubDate>
+    <description>В пакетных менеджерах  GNU Guix, Nix и Lix выявлены уязвимости (Nix, Guix, Lix), позволяющие выполнить код с правами пользователей, под которыми запускаются сборочные задания (например, nixbld* в Nix/Lix), что может использоваться для записи своих данных в сборочное окружение и внесения изменений в сборочный процесс. Проблемы присутствуют в фоновых процессах guix-daemon и nix-daemon, применяемых для организации доступа непривилегированных пользователей к сборочным операциям.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63464</guid>
+</item>
+<item>
+    <title>Уязвимость в платформе совместной разработки Gogs, позволяющая выполнить код на сервере</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63460</link>
+    <pubDate>Wed, 25 Jun 2025 10:43:25 +0300</pubDate>
+    <description>В платформе совместной разработки Gogs выявлена уязвимость, которой присвоен  критический уровень опасности (10 из 10). Уязвимость  позволяет непривилегированному пользователю Gogs изменить исходный код других пользователей сервиса, а также выполнить произвольные команды на сервере с правами пользователя, указанного через параметр RUN_USER в конфигурации Gogs. Уязвимость устранена в обновлении Gogs 0.13.3. Проблема является следствием неполного исправления уязвимости CVE-2024-39931, раскрытой в декабре. Уязвимость не затрагивает платформы Forgejo и Gitea, продолжающие развитие форка Gogs, созданного в 2016 году.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63460</guid>
+</item>
+<item>
+    <title>Обновление дистрибутива OpenWrt 24.10.2</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63463</link>
+    <pubDate>Wed, 25 Jun 2025 08:25:44 +0300</pubDate>
+    <description>Состоялся выпуск дистрибутива OpenWrt 24.10.2, развиваемого для   сетевых устройств, таких как маршрутизаторы, коммутаторы и точки доступа. OpenWrt поддерживает 2771 устройство и предлагает систему сборки, упрощающую кросс-компиляцию и создание собственных сборок. Подобные сборки позволяют формировать готовые прошивки с желаемым набором предустановленных пакетов, оптимизированные под конкретные задачи. Готовые сборки опубликованы для 39 целевых платформ.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63463</guid>
+</item>
+<item>
+    <title>Изменение правил в каталоге дополнений к Firefox</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63462</link>
+    <pubDate>Wed, 25 Jun 2025 08:11:08 +0300</pubDate>
+    <description>Компания Mozilla представила обновлённые правила размещения дополнений в каталоге AMO (addons.mozilla.org), которые начнут действовать 4 августа. Наиболее заметным изменением стало снятие запрета на ограничение доступа к  дополнениям - авторы дополнений теперь могут на своё усмотрение ограничивать доступ к дополнениям, размещаемым в AMO. Например, допускается размещение дополнений только для внутреннего использования или для закрытых групп пользователей.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63462</guid>
+</item>
+<item>
+    <title>Новая версия nginx 1.29.0</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63459</link>
+    <pubDate>Tue, 24 Jun 2025 22:49:50 +0300</pubDate>
+    <description>Опубликован первый выпуск новой основной ветки nginx 1.29.0, в рамках которой будет продолжено развитие новых возможностей. В параллельно поддерживаемой стабильной ветке 1.28.x вносятся только изменения, связанные с устранением серьёзных ошибок и уязвимостей. В следующем году на базе основной ветки 1.29.x будет сформирована стабильная ветка 1.30.  Код проекта написан на языке Си и распространяется под лицензией BSD.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63459</guid>
+</item>
+<item>
+    <title>Компания SUSE открыла AI-модель для анализа лицензионной чистоты кода</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63454</link>
+    <pubDate>Tue, 24 Jun 2025 21:52:41 +0300</pubDate>
+    <description>Компания SUSE  объявила об открытии под лицензией Apache 2.0 большой языковой модели Cavil-Qwen3-4B, применяемой в  проектах SUSE и openSUSE в инструментарии Cavil для анализа лицензионной чистоты кода. Опубликованная модель охватывает 4 миллиардов параметров и основана на модели  Qwen3-4B, дополнительно оптимизированной для классификации текста.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63454</guid>
+</item>
+<item>
+    <title>Релиз Firefox 140</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63457</link>
+    <pubDate>Tue, 24 Jun 2025 17:45:40 +0300</pubDate>
+    <description>Состоялся релиз web-браузера Firefox 140. Firefox 140 отнесён к категории веток с длительным сроком поддержки (ESR), обновления для которых выпускаются в течение года. Кроме того, сформированы обновления прошлых веток с длительным сроком поддержки - 115.25.0 и 128.12.0. На стадию бета-тестирования  переведена ветка Firefox 141, релиз которой намечен на 22 июля.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63457</guid>
+</item>
+<item>
+    <title>В Fedora намерены прекратить поддержку 32-разрядной архитектуры x86</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63456</link>
+    <pubDate>Tue, 24 Jun 2025 15:21:13 +0300</pubDate>
+    <description>В выпуске Fedora Linux 44, намеченном на весну 2026 года, планируют  прекратить поддержку запуска 32-разрядных приложений для архитектуры x86. Если план будет утверждён комитетом FESCo (Fedora Engineering Steering Committee), отвечающим за техническую часть разработки Fedora Linux, то в дистрибутиве будет прекращена сборка пакетов для архитектуры i686 и 32-разрядных библиотек (multilib), обеспечивающих совместимость с 32-разрядными приложениями в окружениях x86_64.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63456</guid>
+</item>
+<item>
+    <title>Планы по подготовке стандарта ODF 1.4</title>
+    <link>https://www.opennet.ru/opennews/art.shtml?num=63449</link>
+    <pubDate>Mon, 23 Jun 2025 21:44:25 +0300</pubDate>
+    <description>Организация The Document Foundation опубликовала ключевые направления развития будущего стандарта  OpenDocument 1.4 (ODF), определяющего основанный на XML, независимый от приложений и платформ файловый формат для хранения документов. ODF применим для создания, редактирования, просмотра документов, обмена ими и их архивирования. В формате ODF могут храниться текстовые документы, презентации, электронные таблицы, растровые графические материалы, векторные рисунки, схемы и другие типы контента.</description>
+    <guid>https://www.opennet.ru/opennews/art.shtml?num=63449</guid>
+</item>
+</channel>
+</rss>
