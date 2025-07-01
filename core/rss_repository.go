@@ -10,6 +10,8 @@ import (
 	"github.com/k0tlin/rss-buzzer/core/pkg"
 )
 
+var RSSRepo = RSSRepository{Path: "data"}
+
 type RSSRepository struct {
 	Path string
 }
@@ -35,6 +37,7 @@ func (repo RSSRepository) OpenDatabase() *badger.DB {
 }
 
 func (repo RSSRepository) GetValue(key []byte) ([]byte, error) {
+	key = []byte("feeds:" + string(key))
 	db := repo.OpenDatabase()
 	var resultValue []byte
 	defer db.Close()
@@ -66,7 +69,7 @@ func (repo RSSRepository) GetKey(value []byte) ([]byte, error) {
 	db.View(func(txn *badger.Txn) error {
 		opts := badger.DefaultIteratorOptions
 		opts.PrefetchValues = true
-		opts.Prefix = nil
+		opts.Prefix = []byte("feeds:")
 		it := txn.NewIterator(opts)
 		defer it.Close()
 		log.Printf("Looking for key in database with value %s.\n", value)
@@ -88,11 +91,12 @@ func (repo RSSRepository) GetKey(value []byte) ([]byte, error) {
 
 func (repo RSSRepository) GetAllPairs() []pkg.DBPair {
 	db := repo.OpenDatabase()
+	defer db.Close()
 	var resultPairs []pkg.DBPair
 	db.View(func(txn *badger.Txn) error {
 		opts := badger.DefaultIteratorOptions
 		opts.PrefetchValues = true
-		opts.Prefix = nil
+		opts.Prefix = []byte("feeds:")
 		it := txn.NewIterator(opts)
 		defer it.Close()
 		log.Printf("Parsing all pairs...\n")
@@ -127,9 +131,10 @@ func (repo RSSRepository) DeleteValue(key []byte) error {
 }
 
 func (repo RSSRepository) InsertValue(key []byte, value []byte) error {
+	key = []byte("feeds:" + string(key))
 	db := repo.OpenDatabase()
 	defer db.Close()
-	log.Printf("Inserting key-value pair in database: %s:%s\n", key, value)
+	log.Printf("Inserting key-value pair in database: %s-%s\n", key, value)
 	err := db.Update(func(txn *badger.Txn) error {
 		err := txn.Set(key, value)
 		if err != nil {
